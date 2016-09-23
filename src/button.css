@@ -1,0 +1,23 @@
+.button {
+    background-color: #3cdff4;
+    color: #fff;
+    height: 30px;
+    display: inline-block;
+    border-radius: 5px;
+    text-decoration: none;
+    margin: auto auto;
+    font-size: 18px;
+    line-height: 18px;
+}
+
+.small.button {
+    height: 20px;
+    font-size: 14px;
+    line-height: 14px;
+}
+
+.large.button {
+    height: 50px;
+    font-size: 24px;
+    line-height: 24px;
+}
