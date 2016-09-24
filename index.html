@@ -3,7 +3,8 @@
 <html>
     <head>
         <title>Grid Test Page</title>
-        <link rel="stylesheet" href="dist/plain.min.css">
+        <link rel="stylesheet" href="src/grid.css">
+        <link rel="stylesheet" href="src/button.css">
         <style>
             .columns, .column {
                 border: 2px solid #ccc;
@@ -21,9 +22,12 @@
                 <div class="two columns">Two Columns</div>
             </div>
             <div class="row">
-                <a href="" class="small button">Small Button</a>
-                <a href="" class="button">Button</a>
-                <a href="" class="large button">Large Button</a>
+                <div class="column two">
+                    <a href="#" class="button raised">Button</a>
+                </div>
+                <div class="column two">
+                    <a href="#" class="button">Button</a>
+                </div>
             </div>
         </div>
     </body>
