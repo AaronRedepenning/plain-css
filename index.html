@@ -3,31 +3,20 @@
 <html>
     <head>
         <title>Grid Test Page</title>
-        <link rel="stylesheet" href="src/grid.css">
-        <link rel="stylesheet" href="src/button.css">
+        <link rel="stylesheet" href="src/plain.css">
         <style>
-            .columns, .column {
+            [class^="col"] {
                 border: 2px solid #ccc;
-                background-color: #eee;
             }
         </style>
     </head>
     <body>
-        <div class="container full">
+        <div class="container">
             <div class="row">
-                <div class="two columns"><div class="content">Two Columns</div></div>
-                <div class="three columns">Three Columns</div>
-                <div class="four columns">Four Columns</div>
-                <div class="one columns">One Column</div>
-                <div class="two columns">Two Columns</div>
-            </div>
-            <div class="row">
-                <div class="column two">
-                    <a href="#" class="button raised">Button</a>
-                </div>
-                <div class="column two">
-                    <a href="#" class="button">Button</a>
-                </div>
+                <div class="col-2"><div class="content">Two Columns</div></div>
+                <div class="col-3 font-heavy">Three Columns</div>
+                <div class="col-4">Four Columns</div>
+                <div class="col-3">Three Columns</div>
             </div>
         </div>
     </body>
